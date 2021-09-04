@@ -1,10 +1,17 @@
 import './App.css';
-import Todos from './Todos'
+import Form from './Components'
+import Navbar from './Components'
 
 function App() {
   return (
     <div className="App">
-      <Todos />
+      {/* <Todos /> */}
+      {/* <Wrapper>
+        <Navbar />
+        <FormWrapper />
+      </Wrapper> */}
+      <Form />
+      <Navbar />
     </div>
   );
 }
